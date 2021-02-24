@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Mover : MonoBehaviour
 {
   float moveSpeed = 10f;
- 
+  
 
   // Start is called before the first frame update
   void Start()
@@ -19,7 +20,7 @@ public class Mover : MonoBehaviour
     Movement();
   }
 
-
+  
   void Instructions()
   {
     Debug.Log("Welcome to my game! Cheers!");

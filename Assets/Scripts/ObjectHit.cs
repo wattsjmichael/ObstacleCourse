@@ -10,7 +10,8 @@ public class ObjectHit : MonoBehaviour
     if (other.gameObject.tag == "Player")
     {
       GetComponent<MeshRenderer>().material.color = new Color(255f, 161f, 0f);
-        gameObject.tag = "Obstacle";
+      gameObject.tag = "Obstacle";
+      
     }
   }
 }
