@@ -35,9 +35,9 @@ public class Scorer : MonoBehaviour
       easterText.text = "Ummm... You hit them all!";
     }
     
-    if (other.gameObject.tag == "Finish")
+    if (other.gameObject.tag == "Finish" & bumps >= 3)
     {
-      finishText.text = "You win!";
+      finishText.text = "Great job! Darn Near Perfect!";
       yield return new WaitForSeconds(2);
       SceneManager.LoadScene(0);
      
